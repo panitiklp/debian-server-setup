@@ -24,7 +24,7 @@ fi
 # 1. Update and install dependencies
 echo "--- 📦 Updating system and installing dependencies (including Git) ---"
 apt-get update
-apt-get install -y ca-certificates curl gnupg git
+# apt-get install -y ca-certificates curl gnupg git
 
 # 2. Setup GPG Keys for Docker
 echo "--- 🔑 Setting up Docker GPG keys ---"
